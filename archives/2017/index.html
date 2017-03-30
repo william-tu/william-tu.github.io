@@ -61,8 +61,8 @@
     <![endif]-->
 
     <!-- Import CSS -->
-    <link rel="stylesheet" href="/blog/css/material.min.css">
-    <link rel="stylesheet" href="/blog/css/style.min.css">
+    <link rel="stylesheet" href="/css/material.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
     <!-- Config CSS -->
 
 
@@ -166,14 +166,14 @@
 
 
 
-    <script src="/blog/js/jquery.min.js"></script>
-    <script src="/blog/js/queue.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/queue.js"></script>
 
     <!-- UC Browser Compatible -->
     <script>
         var agent = navigator.userAgent.toLowerCase();
         if(agent.indexOf('ucbrowser')>0) {
-            document.write("<link rel=\"stylesheet\" href=\"/blog/css/uc.css\">");
+            document.write("<link rel=\"stylesheet\" href=\"/css/uc.css\">");
             alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
         }
     </script>
@@ -231,7 +231,7 @@
     
 
         <!-- Post Title -->
-        <p class="article-headline-p"><a href="/blog/2017/03/30/hello-world/">Hello World</a></p>
+        <p class="article-headline-p"><a href="/2017/03/30/hello-world/">Hello World</a></p>
     </div>
 
     <!-- Post Excerpt -->
@@ -241,7 +241,7 @@
         
         &nbsp;&nbsp;&nbsp;
         <span>
-            <a href="/blog/2017/03/30/hello-world/" target="_self">继续阅读</a>
+            <a href="/2017/03/30/hello-world/" target="_self">继续阅读</a>
         </span>
     </div>
     <!-- Post_entry Info-->
@@ -249,7 +249,7 @@
         <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
             <!-- Author Avatar -->
             <div id="author-avatar">
-                <img src="/blog/img/avatar.jpg" width="44px" height="44px" alt="william tu's avatar">
+                <img src="/img/avatar.jpg" width="44px" height="44px" alt="william tu's avatar">
             </div>
             <div>
                 <strong>william tu</strong>
@@ -287,7 +287,7 @@
         randomNum = Math.floor(Math.random() * 19 + 1);
 
         locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').css('background-image', 'url(' + '/blog/img/random/material-' + randomNum + '.png' + ')')
+        locatePost.children('.post_thumbnail-random').css('background-image', 'url(' + '/img/random/material-' + randomNum + '.png' + ')')
 
         locatePost = locatePost.next();
     }
@@ -305,7 +305,7 @@
 <aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
     <div id="sidebar-main">
         <!-- Sidebar Header -->
-        <div class="sidebar-header header-cover" style="background-image: url(/blog/img/sidebar_header.png);">
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
     <!-- Top bar -->
     <div class="top-bar"></div>
 
@@ -320,7 +320,7 @@
 
     <!-- Sidebar Avatar -->
     <div class="sidebar-image">
-        <img src="/blog/img/avatar.jpg" alt="william tu's avatar">
+        <img src="/img/avatar.jpg" alt="william tu's avatar">
     </div>
 
     <!-- Sidebar Email -->
@@ -352,7 +352,7 @@
     <!-- Homepage -->
     
         <li id="sidebar-first-li">
-            <a href="/blog/" target="_self">
+            <a href="/" target="_self">
                 
                     <i class="material-icons sidebar-material-icons">home</i>
                 
@@ -374,7 +374,7 @@
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/blog/archives/2017/03/">三月 2017<span class="sidebar_archives-count">1</span></a>
+                <a class="sidebar_archives-link" href="/archives/2017/03/">三月 2017<span class="sidebar_archives-count">1</span></a>
             </ul>
         </li>
         
@@ -459,7 +459,7 @@ It will not impact the appearance and can give developers a lot of support :)
     <!-- Twitter -->
     
         <a href="https://twitter.com/twitter" target="_blank">
-            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/blog/img/footer/footer_ico-twitter.png);">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-twitter.png);">
                 <span class="visuallyhidden">Twitter</span>
             </button><!--
      --></a>
@@ -468,7 +468,7 @@ It will not impact the appearance and can give developers a lot of support :)
     <!-- Facebook -->
     
         <a href="https://www.facebook.com/facebook" target="_blank">
-            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/blog/img/footer/footer_ico-facebook.png);">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-facebook.png);">
                 <span class="visuallyhidden">Facebook</span>
             </button><!--
      --></a>
@@ -477,7 +477,7 @@ It will not impact the appearance and can give developers a lot of support :)
     <!-- Google + -->
     
         <a href="https://www.google.com/" target="_blank">
-            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/blog/img/footer/footer_ico-gplus.png);">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-gplus.png);">
                 <span class="visuallyhidden">Google Plus</span>
             </button><!--
      --></a>
@@ -540,9 +540,9 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
                     <!-- Import File -->
-<script src="/blog/js/lazyload.min.js"></script>
-<script src="/blog/js/js.min.js"></script>
-<script src="/blog/js/nprogress.js"></script>
+<script src="/js/lazyload.min.js"></script>
+<script src="/js/js.min.js"></script>
+<script src="/js/nprogress.js"></script>
 
 <script type="text/javascript">
     NProgress.configure({
